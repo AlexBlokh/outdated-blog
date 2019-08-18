@@ -1,0 +1,1 @@
+I suppose to have a proper docs on how to build, run project locally, hot swaps and deploy to dev and production here.
