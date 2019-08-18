@@ -4,6 +4,7 @@
   "description": "I suppose to have a proper docs on how to build, run project locally, hot swaps and deploy to dev and production here.",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/AlexBlokh/outdated-blog/issues"
   },
-  "homepage": "https://github.com/AlexBlokh/outdated-blog#readme"
+  "homepage": "https://github.com/AlexBlokh/outdated-blog#readme",
+  "devDependencies": {
+    "ts-loader": "^6.0.4",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  }
 }
